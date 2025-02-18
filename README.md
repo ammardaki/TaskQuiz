@@ -33,6 +33,7 @@ MySQL
 تثبيت الحزم المطلوبة
 
 composer install
+
 npm install
 
 إعداد ملف البيئة .env
