@@ -1,0 +1,61 @@
+/* ✅ تحسين التصميم العام */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Cairo', sans-serif; /* اختيار خط مناسب */
+    direction: rtl; /* تأكيد الاتجاه من اليمين لليسار */
+}
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+input, textarea {
+    text-align: right; /* محاذاة النص في الحقول من اليمين لليسار */
+}
+/* ✅ شريط التنقل */
+.navbar {
+    background-color: #007bff !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+}
+
+/* ✅ تخصيص بطاقات الاختبارات */
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* ✅ تحسين الفوتر */
+footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* ✅ تخصيص الأزرار */
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+}
+
+/* ✅ تحسين حقول الإدخال */
+.form-check-label {
+    font-weight: bold;
+}
