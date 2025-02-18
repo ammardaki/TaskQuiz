@@ -2,13 +2,13 @@
 
 المتطلبات
 
-                                                                                                                                                              XAMPP مثبت على جهازك
+XAMPP مثبت على جهازك
 
-                                                                                                                                                                  PHP 8.x أو أعلى
+PHP 8.x أو أعلى
 
-                                                                                                                                                           Composer مثبت على الجهاز
+Composer مثبت على الجهاز
 
-                                                                                                                                                               Node.js و NPM مثبتين
+Node.js و NPM مثبتين
 
 خطوات تشغيل المشروع
 
@@ -16,9 +16,9 @@
 
 افتح XAMPP وقم بتشغيل كل من:
 
-                                                                                                                                                                       Apache
+Apache
 
-                                                                                                                                                                        MySQL
+MySQL
 
 2. ضبط قاعدة البيانات
 
@@ -32,8 +32,8 @@
 
 تثبيت الحزم المطلوبة
 
-                                                                                                                                                                composer install
-                                                                                                                                                                     npm install
+composer install
+npm install
 
 إعداد ملف البيئة .env
 
@@ -43,24 +43,31 @@
 
 توليد مفتاح التشفير
 
-                                                                                                                                                        php artisan key:generate
+php artisan key:generate
 
-تنفيذ الترحيلات وإضافة البيانات الأولية 
+تنفيذ الترحيلات وإضافة البيانات الأولية (اختياري)
 
-                                                                                                                                                      php artisan migrate --seed
+php artisan migrate --seed
 
 4. تشغيل المشروع
 
 تشغيل الخادم المحلي للـ Laravel
 
-                                                                                                                                                            php artisan serve
+php artisan serve
 
 تشغيل Vite لتحديث الواجهة الأمامية تلقائيًا
 
-                                                                                                                                                                   npm run dev
+npm run dev
 
 5. الوصول إلى المشروع
 
 افتح المتصفح وانتقل إلى http://127.0.0.1:8000/
 
+ملاحظات إضافية
+
+إذا كنت تستخدم منفذًا مختلفًا، تأكد من تعديله عند تشغيل php artisan serve
+
+يمكنك استخدام npm run build لإنشاء نسخة مضغوطة من الملفات الأمامية للإنتاج
+
+تأكد من تشغيل قاعدة البيانات قبل تشغيل المشروع
 
